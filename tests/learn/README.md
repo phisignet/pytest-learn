@@ -44,6 +44,10 @@ uv run pytest tests/learn/test_01_first_test.py::test_min_max_scale_range -v
 | 11 | `test_11_tmp_path.py` | 一時ファイル・ディレクトリ（`tmp_path`） |
 | 12 | `test_12_mock.py` | モック（`pytest-mock` の `mocker`） |
 | 13 | `test_13_snapshot_and_time.py` | スナップショット / 時刻固定（発展・要追加パッケージ） |
+| 14 | `test_14_monkeypatch.py` | `monkeypatch`（環境変数・属性・dict の一時差し替え） |
+| 15 | `test_15_caplog_and_warns.py` | ログの検証（`caplog`）と警告の検証（`pytest.warns`） |
+| 16 | `test_16_fixture_advanced.py` | フィクスチャ応用（`params=` / ファクトリ / `tmp_path_factory`） |
+| 17 | `test_17_mock_advanced.py` | モック応用（`side_effect` リスト / `spy` / `patch.object` / `patch.dict`） |
 
 各ファイルの冒頭コメントに「このレッスンのポイント」と「試してみるコマンド」を書いてある。
 まず読んで、`-v -s` を付けて実行し、出力と照らし合わせるのがおすすめ。
